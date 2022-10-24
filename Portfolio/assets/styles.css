@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER */
+.headerSection {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: black;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    height: 10vh;
+  
+}
+
+
+.img-selfie {
+    width: 20rem;
+    border-radius: 10rem;
+    border: 2px solid black;
+    
+}
+
+.row {
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.portfolioSection {
+   height: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.acercaDeMiSection {
+    height: 30%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactoSection {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-portfolio {
+    border: 2px solid black;
+    width: 90%;
+ 
+}
+
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerFooter {
+    display:flex ;
+}
+
+.bi {
+    width: 15rem;
+}
+
+.article {
+   min-height: 15rem;
+   width: 30rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   gap: 2rem;
+   padding: 2rem;
+
+}
+
+
+.portfolioCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.button {
+    padding: 1rem;
+    border-radius: 2rem;
+}
