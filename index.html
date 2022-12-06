@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>J.J.M</title>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/img/JJM.jpeg" alt="selfie" class="circle selfie" />
+      <h1>Juan Jeronimo Moyano</h1>
+      <hr />
+      <h2>FullStack Developer</h2>
+      <h2>Lic. en Administracion de Empresas</h2>
+      <video autoplay loop muted>
+        <source src="./assets/img/Video/hero.mp4" />
+      </video>
+
+      <!-- Agregar un video, con etiqueta video+source  -->
+    </header>
+    <nav id="navbar" class="open">
+      <div class="home-link">
+        <a href="">
+          <!--           <img class="circle" src="../" alt="" />
+ -->
+          <span>Juan Jeronimo Moyano <small>FullStack Developer</small></span>
+        </a>
+        <button id="hamburguer">☰</button>
+      </div>
+      <ul>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skillset">SkillSet</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="portfolio">
+        <h3>Portfolio</h3>
+        <div id="pContainer">
+          <button data-modal-id="myModal-am">
+            <img src="./assets/img/portfolio/Logos/Logo_Amazing_Events.png" />
+            <h4>Amazing Events</h4>
+          </button>
+
+          <div id="myModal-am" class="eins-modal">
+            <div class="eins-modal-content">
+              <div class="eins-modal-close"></div>
+
+              <!-- Your Content -->
+              <ul>
+                <li>45hs</li>
+                <li>HTML, CSS, JAVASCRIPT</li>
+                <li>MindHub</li>
+              </ul>
+              <a
+                href="https://github.com/juanmoyano123/amazing-events/tree/main/Task4-Moyano-Juan"
+                >GitHub</a
+              >
+              <button class="eins-modal-close-button">OK</button>
+            </div>
+          </div>
+          <button data-modal-id="myModal-dv">
+            <img src="./assets/img/portfolio/Logos/LogoMT.png" />
+            <h4>DevsTrip</h4>
+          </button>
+
+          <div id="myModal-dv" class="eins-modal">
+            <div class="eins-modal-content">
+              <div class="eins-modal-close"></div>
+
+              <!-- Your Content -->
+              <ul>
+                <li>85hs</li>
+                <li>HTML, CSS, JAVASCRIPT</li>
+                <li>MindHub</li>
+              </ul>
+              <button class="eins-modal-close-button">OK</button>
+            </div>
+          </div>
+
+          <button data-modal-id="myModal-ts">
+            <img src="./assets/img/portfolio/Logos/logo-white.png" />
+            <h4>The Salty</h4>
+          </button>
+
+          <div id="myModal-ts" class="eins-modal">
+            <div class="eins-modal-content">
+              <div class="eins-modal-close"></div>
+
+              <!-- Your Content -->
+              <ul>
+                <li>120hs</li>
+                <li>MERN</li>
+                <li>MindHub</li>
+              </ul>
+
+              <button class="eins-modal-close-button">OK</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skillset">
+        <h3>SkillSet</h3>
+        <div class="sectionContainer">
+          <div class="cardContainer">
+            <img src="./assets/img/portfolio/Skills/css3.svg" alt="css" />
+            <span>CSS</span>
+          </div>
+          <div class="cardContainer">
+            <img src="./assets/img/portfolio/Skills/html5.svg" alt="html" />
+            <span>HTML</span>
+          </div>
+          <div class="cardContainer">
+            <img src="./assets/img/portfolio/Skills/js (1).svg" alt="js" />
+            <span>Javascript</span>
+          </div>
+          <div class="cardContainer">
+            <img src="./assets/img/portfolio/Skills/mongodb.svg" alt="mongo" />
+            <span>Mongo DB</span>
+          </div>
+          <div class="cardContainer">
+            <img src="./assets/img/portfolio/Skills/nodejs.svg" alt="node" />
+            <span>NodeJS</span>
+          </div>
+          <div class="cardContainer">
+            <img src="./assets/img/portfolio/Skills/react.svg" alt="react" />
+            <span>React</span>
+          </div>
+          <div class="cardContainer">
+            <img
+              src="./assets/img/portfolio/Skills/visual-studio-team-services-github.svg"
+              alt=""
+            />
+            <span>GIT</span>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <h3>Experience</h3>
+
+        <div id="experience">
+          <a class="a-experience">
+            <img
+              src="./assets/img/experiencia/quiena-logotipo-large.svg"
+              alt="quiena"
+            />
+            <h4>Cusotmer Service Team Leader</h4>
+          </a>
+          <a>
+            <img
+              src="./assets/img/experiencia/logo-san-Matthews.png"
+              alt="sm"
+            />
+            <h4>Preceptor</h4>
+          </a>
+          <a>
+            <img
+              src="./assets/img/experiencia/logo-tartaruga.png"
+              alt="tartaruga"
+            />
+            <h4>Encargado</h4>
+          </a>
+        </div>
+      </section>
+      <hr />
+      <section id="contact">
+        <!-- Usrar formspree para esta parte -->
+        <h3>Contact</h3>
+        <form action="" method="POST">
+          <label>
+            Your email:
+            <input type="email" name="_replyto" />
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+        <div id="social-media">
+          <img
+            src="./assets/img/logos-socialMedia/github.png"
+            alt="github"
+            id="github"
+          />
+
+          <img
+            src="./assets/img/logos-socialMedia/linkedin.png"
+            alt="linkedin"
+            id="linkedin"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <small>Developed and Desing by Juan Jeronimo Moyano</small>
+    </footer>
+
+    <script src="./assets/js/fixed.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

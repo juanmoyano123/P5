@@ -1,0 +1,25 @@
+#skillset img {
+  border-radius: 1rem;
+}
+
+/* #skillset > div > div {
+    position: relative;
+  }
+   */
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer:hover {
+  scale: 1.5;
+  opacity: 0.5;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}

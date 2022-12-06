@@ -1,0 +1,15 @@
+@import "./assets/styles/fonts.css";
+@import "./assets/styles/sections.css";
+@import "./assets/styles/header.css";
+@import "./assets/styles/utils.css";
+@import "./assets/styles/nav.css";
+@import "./assets/styles/portfolio.css";
+@import "./assets/styles/skillset.css";
+@import "./assets/styles/experience.css";
+@import "./assets/styles/contact.css";
+@import "./assets/styles/main.css";
+@import "./node_modules/normalize.css/normalize.css";
+@import "./node_modules/eins-modal/dist/css/eins-modal-plain.min.css";
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
