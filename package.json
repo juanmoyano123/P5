@@ -1,0 +1,36 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "portafolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjmoyano94/portafolio.git"
+  },
+  "author": "Juan Jeronimo Moyano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjmoyano94/portafolio/issues"
+  },
+  "homepage": "https://github.com/jjmoyano94/portafolio#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize-css": "^2.3.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/eins-modal": "^2.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.2",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

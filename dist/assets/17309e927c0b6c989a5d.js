@@ -1,0 +1,1 @@
+!function(){let e=document.querySelector("#navbar");document.querySelector("#hamburguer").addEventListener("click",(()=>{e.classList.toggle("open")}))}();
