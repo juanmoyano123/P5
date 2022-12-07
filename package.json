@@ -22,6 +22,7 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "@types/eins-modal": "^2.2.1",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.2",
     "css-minimizer-webpack-plugin": "^4.2.2",
