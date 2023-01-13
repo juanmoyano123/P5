@@ -18,13 +18,12 @@
   "homepage": "https://github.com/jjmoyano94/portafolio#readme",
   "dependencies": {
     "eins-modal": "^2.2.2",
-    "normalize-css": "^2.3.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "postcss-selector-parser": "^6.0.11"
   },
   "devDependencies": {
-    "@types/eins-modal": "^2.2.1",
     "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.7.2",
+    "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
