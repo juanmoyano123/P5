@@ -1,1 +1,0 @@
-import"./assets/js/fixed.js";import"./assets/js/main.js";import"./node_modules/eins-modal/dist/js/eins-modal-plain.min.js";import"./index.css";
